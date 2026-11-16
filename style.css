@@ -1,6 +1,4 @@
-body{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdAEziyX5jkQq5hrHc8HZwESzMvQLzvIdIjeoZc0goWdJQ9RkN1nAxgSob&s=10);
-}
+
 .left{
     text-align: left;
     color: aqua;
@@ -53,4 +51,25 @@ ul{
 #spaniks3{
     color: blueviolet;
     border: 2px solid black;
+}
+#block{
+    display: block;
+    border: 3px solid red;
+    margin: 10px;
+    width: 250px;
+}
+#text1{
+    display: inline;
+    border: 1px solid blue;
+    color: green;
+}
+#text2{
+    display: inline;
+    border: 1px solid blue;
+    color: green;
+}
+#text3{
+    display: inline;
+    border: 1px solid blue;
+    color: green;
 }

@@ -1,0 +1,25 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdAEziyX5jkQq5hrHc8HZwESzMvQLzvIdIjeoZc0goWdJQ9RkN1nAxgSob&s=10);
+}
+.left{
+    text-align: left;
+    color: aqua;
+}
+.right{
+    text-align: right;
+    color: aquamarine;
+}
+.center{
+    text-align: center;
+    color: beige;
+}
+.shir{
+    text-align: justify;
+    color: bisque;
+}
+.color{
+    color: blueviolet;
+}
+ul{
+    list-style-type: circle;
+}

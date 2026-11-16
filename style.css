@@ -57,6 +57,7 @@ ul{
     border: 3px solid red;
     margin: 10px;
     width: 250px;
+    padding: 10px;
 }
 #text1{
     display: inline;
@@ -72,4 +73,78 @@ ul{
     display: inline;
     border: 1px solid blue;
     color: green;
+}
+#flex-start{
+    display: flex;
+    justify-content: flex-start;
+    width: 400px;
+    border: 2px solid black;
+    height: auto;
+    background-color: cadetblue;
+}
+.yel{
+    background-color: yellow;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border: 2px solid black;
+}
+.pink{
+    background-color: pink;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border: 2px solid black;
+}
+.green{
+    background-color: green;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border: 2px solid black;
+}
+#flex-end{
+    display: flex;
+    justify-content: flex-end;
+    width: 400px;
+    border: 2px solid black;
+    height: auto;
+    margin-top: 10px;
+    background-color: cadetblue;
+}
+#flex-center{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    border: 2px solid black;
+    height: auto;
+    margin-top: 10px;
+    background-color: cadetblue;
+}
+#space-around{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    border: 2px solid black;
+    height: auto;
+    margin-top: 10px;
+    background-color: cadetblue;
+}
+#space-between{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    border: 2px solid black;
+    height: auto;
+    margin-top: 10px;
+    background-color: cadetblue;
+}
+#space-evenly{
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    border: 2px solid black;
+    height: auto;
+    margin-top: 10px;
+    background-color: cadetblue;
 }

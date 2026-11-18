@@ -23,6 +23,14 @@
 	flex-direction: column;
     justify-content: flex-end;
 }
+<<<<<<< HEAD
+=======
+.child2 {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+>>>>>>> 96a675dc4b8fc7520cb5ef26bcf44c553309b00d
 .parent3 {
 	width: 800px;
     height: 400px;
@@ -33,6 +41,14 @@
 	flex-direction: row-reverse;
     justify-content: flex-start;
 }
+<<<<<<< HEAD
+=======
+.child3 {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+>>>>>>> 96a675dc4b8fc7520cb5ef26bcf44c553309b00d
 .parent4 {
 	width: 800px;
     height: 400px;
@@ -43,6 +59,14 @@
 	flex-direction: row-reverse;
     justify-content: flex-end;
 }
+<<<<<<< HEAD
+=======
+.child4 {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+>>>>>>> 96a675dc4b8fc7520cb5ef26bcf44c553309b00d
 .parent5 {
 	width: 800px;
     height: 400px;
@@ -52,4 +76,12 @@
     margin: auto;
 	flex-direction: column-reverse;
     justify-content: flex-end;
+<<<<<<< HEAD
+=======
+}
+.child5 {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+>>>>>>> 96a675dc4b8fc7520cb5ef26bcf44c553309b00d
 }

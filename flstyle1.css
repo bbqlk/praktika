@@ -5,9 +5,9 @@
     margin-top: 10px;
     display: flex;
     margin: auto;
+    flex-direction: row;
 }
 .child {
-	flex-direction: row;
 	width: 100px;
 	height: 50px;
 	border: 1px solid green;

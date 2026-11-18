@@ -1,0 +1,45 @@
+.parent {
+	width: 800px;
+    height: 400px;
+	border: 1px solid red;
+    margin-top: 10px;
+    display: flex;
+    margin: auto;
+	flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+.child1 {
+	width: 100px;
+	border: 1px solid green;
+}
+.parent2 {
+	width: 800px;
+    height: 400px;
+	border: 1px solid red;
+    margin-top: 10px;
+    display: flex;
+    margin: auto;
+	flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+.child2 {
+    height: 50px;
+	border: 1px solid green;
+}
+.parent3 {
+	width: 800px;
+    height: 400px;
+	border: 1px solid red;
+    margin-top: 10px;
+    display: flex;
+    margin: auto;
+	flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.child3 {
+    height: 50px;
+	border: 1px solid green;
+}

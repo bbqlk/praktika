@@ -1,0 +1,17 @@
+.parent {
+	border: 1px solid black;
+	text-align: justify;
+    width: 600px;
+    margin: auto;
+}
+.child {
+	float: right;
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+    margin: 15px;
+}
+.text{
+    text-align: center;
+    margin-top: auto;
+}

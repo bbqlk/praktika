@@ -1,0 +1,30 @@
+#elem {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	background-color: rgb(188, 216, 121);
+    border-bottom: 1px solid rgb(165, 165, 165);
+}
+#content {
+	margin: 100px auto;
+	width: 600px;
+	text-align: justify;
+	font: 16px Arial;
+}
+#title{
+    margin: 10px auto;
+	text-align: justify;
+	font: 24px Arial;
+    color: white;
+    text-align: center;
+}
+#elem2{
+    position: absolute;
+    top: 70px;
+    right: 600px;
+    width: 700px;
+    height: 850px;
+    border: 1px solid olive;
+}

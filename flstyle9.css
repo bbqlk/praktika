@@ -1,0 +1,104 @@
+.parent {
+	width: 800px;
+    height: 400px;
+	border: 1px solid red;
+    margin-top: 10px;
+    display: flex;
+    margin: auto;
+	flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.child {
+	width: 100px;
+    height: 50px;
+	border: 1px solid green;
+}
+.parent2 {
+	width: 800px;
+    height: 400px;
+	border: 1px solid red;
+    margin-top: 10px;
+    display: flex;
+    margin: auto;
+	flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+}
+.parent3 {
+	width: 800px;
+    height: 400px;
+	border: 1px solid red;
+    margin-top: 10px;
+    display: flex;
+    margin: auto;
+	flex-direction: column;
+    justify-content:center;
+    align-items: flex-end;
+}
+.parent4 {
+	width: 800px;
+    height: 400px;
+	border: 1px solid red;
+    margin-top: 10px;
+    display: flex;
+    margin: auto;
+	flex-direction: column-reverse;
+    justify-content:center;
+    align-items: flex-end;
+}
+.parent5 {
+	width: 800px;
+    height: 400px;
+	border: 1px solid red;
+    margin-top: 10px;
+    display: flex;
+    margin: auto;
+	flex-direction: column-reverse;
+    justify-content:center;
+    align-items: flex-start;
+}
+.parent6 {
+	width: 800px;
+    height: 400px;
+	border: 1px solid red;
+    margin-top: 10px;
+    display: flex;
+    margin: auto;
+	flex-direction: column;
+    justify-content:space-between;
+    align-items: flex-start;
+}
+.parent7 {
+	width: 800px;
+    height: 400px;
+	border: 1px solid red;
+    margin-top: 10px;
+    display: flex;
+    margin: auto;
+	flex-direction: row;
+    justify-content:space-between;
+    align-items: flex-end;
+}
+.parent8 {
+	width: 800px;
+    height: 400px;
+	border: 1px solid red;
+    margin-top: 10px;
+    display: flex;
+    margin: auto;
+	flex-direction: column-reverse;
+    justify-content:space-between;
+    align-items: flex-end;
+}
+.parent8 {
+	width: 800px;
+    height: 400px;
+	border: 1px solid red;
+    margin-top: 10px;
+    display: flex;
+    margin: auto;
+	flex-direction: row;
+    justify-content:space-around;
+    align-items: flex-end;
+}

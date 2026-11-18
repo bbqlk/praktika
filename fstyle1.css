@@ -1,0 +1,13 @@
+div {
+	width: 500px;
+	text-align: justify;
+    margin: auto;
+}
+#img1 {
+	float: left;
+    width: 150px;
+}
+#img2{
+    float: right;
+    width: 150px;
+}

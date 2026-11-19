@@ -1,0 +1,57 @@
+#menu {
+	display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 500px;
+    gap: 10px;
+}
+#menu a {
+	padding: 10px;
+	font: 15px Arial;
+	text-decoration: none;
+	color: white;
+	background-color: rgb(34, 138, 89);
+}
+#menu a:hover, #menu a.active {
+	color: rgb(34, 138, 89);
+	border: 1px solid rgb(34, 138, 89);
+	background-color: #F5F6FA;
+}
+#menu2 {
+	display: grid;
+    margin-top: 10px;
+    grid-template-rows: repeat(5, 1fr);
+    width: 300px;
+    gap: 10px;
+}
+#menu2 a {
+	padding: 10px;
+	font: 15px Arial;
+	text-decoration: none;
+	color: white;
+	background-color: rgb(34, 138, 89);
+    border: 1px solid rgb(34, 138, 89);
+}
+#menu2 a:hover, #menu2 a.active {
+	color: rgb(34, 138, 89);
+	border: 1px solid rgb(34, 138, 89);
+	background-color: #F5F6FA;
+}
+#menu3 {
+	display: grid;
+    grid-template-columns: repeat(5, 1fr) 1fr;
+    width: 600px;
+    gap: 10px;
+    margin-top: 10px;
+    background-color: rgb(34, 138, 89);
+}
+#menu3 a {
+	padding: 15px;
+	font: 15px Arial;
+	text-decoration: none;
+	color: white;
+	background-color: rgb(34, 138, 89);
+}
+#menu3 a:hover, #menu3 a.active {
+	color: white;
+	background-color:rgb(24, 97, 63);
+}

@@ -1,0 +1,26 @@
+#parent {
+	display: grid;
+	grid-template-rows: 100px 150px 200px;
+	border: 2px solid #696989;
+	padding: 10px;
+	height: 450px;
+    width: 600px;
+}
+#parent > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+
+#parent2 {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 1fr);
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 500px;
+    margin-top: 10px;
+    height: 450px;
+}
+#parent2 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}

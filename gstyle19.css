@@ -1,0 +1,38 @@
+#parent {
+	display: grid;
+	border: 2px solid #696989;
+    gap: 10px;
+	height: 400px;
+    width: 550px;
+    grid-template: repeat(3, 1fr) / repeat(4, 1fr);
+}
+#parent > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#parent2 {
+	display: grid;
+	border: 2px solid #696989;
+    margin-top: 20px;
+    gap: 10px;
+	height: 400px;
+    width: 550px;
+    grid-template: repeat(3, 1fr) / repeat(2, 1fr) 2fr 3fr;
+}
+#parent2 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#parent3 {
+	display: grid;
+	border: 2px solid #696989;
+    margin-top: 20px;
+    gap: 10px;
+	height: 400px;
+    width: 550px;
+    grid-template: repeat(3, 1fr) / repeat(4, 1fr);
+}
+#parent3 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}

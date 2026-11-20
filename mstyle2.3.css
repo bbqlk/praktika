@@ -1,0 +1,26 @@
+header h1{
+    margin: 0 auto;
+    font: 28px Georgia, serif;
+    width: 400px;
+    text-align: center;
+}
+article{
+    display: grid;
+    width: 675px;
+    font: 14px Georgia;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    word-spacing: 5px;
+}
+article a{
+    text-decoration: none;
+}
+article a:hover{
+    text-decoration: underline;
+}
+.more{
+    text-align: right;
+    margin-right: 20px;
+}

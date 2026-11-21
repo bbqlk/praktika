@@ -1,0 +1,31 @@
+#text1{
+    white-space: pre-wrap;
+}
+#text2{
+    width: 200px;
+    border: 1px solid black;
+}
+#text2 p{
+    white-space: pre;
+}
+#text3{
+    width: 200px;
+    border: 1px solid black;
+}
+#text3 p{
+    white-space: pre;
+}
+#text4{
+    width: 200px;
+    border: 1px solid black;
+}
+#text4 p{
+    white-space: pre-wrap;
+}
+#text5{
+    width: 200px;
+    border: 1px solid black;
+}
+#text5 p{
+    white-space: pre-line;
+}

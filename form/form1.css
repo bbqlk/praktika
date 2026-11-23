@@ -1,0 +1,17 @@
+div{
+    margin-bottom: 10px;
+}
+.red{
+    border: 1px solid red;
+}
+.big{
+    height: 30px;
+}
+#flex{
+    width: 178px;
+    display: flex;
+    flex-direction: column;
+}
+#flex input{
+    margin-bottom: 10px;
+}

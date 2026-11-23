@@ -1,0 +1,23 @@
+#task1{
+    columns: 300px auto;
+    width: 80%;
+    margin-bottom: 10px;
+}
+#task2{
+    columns: auto 4;
+    width: 1000px;
+    margin-bottom: 10px;
+}
+#task3{
+    columns: auto 4;
+    width: 1000px;
+    margin-bottom: 10px;
+    column-gap: 30px;
+}
+#task4{
+    columns: auto 4;
+    width: 1000px;
+    margin-bottom: 10px;
+    column-gap: 30px;
+    column-rule: 1px solid gray;
+}

@@ -1,9 +1,0 @@
-.text::first-line   {
-    color: red;
-}
-.text{
-    text-align: center;
-    width: 400px;
-    margin: 0 auto;
-    margin-bottom: 10px;
-}

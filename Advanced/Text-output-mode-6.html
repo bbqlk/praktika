@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spacing between words and letters</title>
+    <link rel="stylesheet" href="Text-output-mode.css">
+</head>
+<body>
+    <p id="text1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni,    cum. 
+        Eligendi inventore cupiditate magni. Neque nostrum, itaque impedit           in laudantium beatae numquam doloremque accusamus aliquam, 
+        non recusandae facere accusantium! Incidunt.</p>
+    <div id="text2">
+    <p>lo Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, cum. Eligendi inventore cupiditate magni. Neque nostrum, itaque impedit in laudantium beatae numquam doloremque accusamus aliquam, non recusandae facere accusantium! Incidunt.</p>
+    </div>
+    PRE - выходит за рамки ине переносится
+    <div id="text3">
+    <p>lo Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, cum. Eligendi inventore cupiditate magni. Neque nostrum, itaque impedit in laudantium beatae numquam doloremque accusamus aliquam, non recusandae facere accusantium! Incidunt.</p>
+    </div>
+    PRE-WRAP - переносит текст, но игнорирует отступы в коде
+    <div id="text4">
+    <p>lo Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, cum. Eligendi inventore cupiditate magni. Neque nostrum, itaque impedit in laudantium beatae numquam doloremque accusamus aliquam, non recusandae facere accusantium! Incidunt.</p>
+    </div>
+    PRE-LINE - учитывает Enter-ы в HTML коде
+    <div id="text5">
+    <p>lo Lorem, ipsum  
+        dolor sit amet consectetur adipisicing elit. Magn 
+        i, cum. Eligendi inventore cupiditate magni. 
+        
+        Neque nostrum, itaque impedit in  laudantium beatae numquam doloremque accusamus aliquam, non recusandae facere accusantium! Incidunt.</p>
+    </div>
+</body>
+</html>

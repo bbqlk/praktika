@@ -1,0 +1,32 @@
+#task1-2{
+    width: 200px;
+    border: 1px solid black;
+    white-space: nowrap;
+    overflow-y: auto;
+}
+#task3{
+    width: 200px;
+    overflow: hidden;
+    border: 1px solid black;
+    white-space: pre;
+    margin-top: 10px;
+}
+#task4{
+    width: 200px;
+    border: 1px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+	text-overflow: ellipsis;
+    margin-top: 10px;
+}
+#task5{
+    width: 200px;
+    border: 1px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+	text-overflow: ellipsis;
+    margin-top: 10px;
+}
+#task5:hover{
+    white-space: unset;
+}

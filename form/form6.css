@@ -1,0 +1,31 @@
+#t3{
+    width: 300px;
+    height: 200px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+#t4{
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+#t5{
+    width: 300px;
+    padding: 10px;
+    height: 40px;
+    box-sizing: border-box;
+}
+#t6{
+    width: 300px;
+    padding: 10px;
+    height: 40px;
+    box-sizing: border-box;
+}
+#t7{
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+}

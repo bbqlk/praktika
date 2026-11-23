@@ -1,0 +1,14 @@
+ul::after{
+    content: '.';
+}
+div{
+    position: relative;
+}
+span::after{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    content: '';
+    top: -10px;
+}

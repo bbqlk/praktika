@@ -1,0 +1,10 @@
+#task1{
+    border: 1px solid black;
+    word-break: break-all;
+    width: 200px;
+}
+#task2{
+    border: 1px solid black;
+    overflow-wrap: break-word;
+    width: 200px;
+}

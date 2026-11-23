@@ -1,0 +1,19 @@
+#t1{
+    height: 100px;
+    resize: horizontal;
+}
+#t2{
+    height: 100px;
+    resize: vertical;
+}
+#t3{
+    height: 100px;
+    resize: none;
+}
+#t4{
+    min-height: 100px;
+    min-width: 150px;
+    max-height: 300px;
+    max-width: 400px;
+    resize: both;
+}

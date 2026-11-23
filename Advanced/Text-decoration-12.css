@@ -1,0 +1,20 @@
+#text1{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+}
+#text2{
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: red;
+}
+#text3{
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: red;
+}
+#text4{
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: red;
+}

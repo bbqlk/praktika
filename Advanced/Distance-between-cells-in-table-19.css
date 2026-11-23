@@ -1,0 +1,28 @@
+#tab1{
+    color: white;
+    width: 250px;
+    height: 125px;
+    border-spacing: 10px;
+    border: 1px solid black;
+}
+td {
+	border: 1px solid black;
+	text-align: center;
+    background-color: rgb(2, 153, 108);
+    width: 70px;
+    height: 40px;
+}
+#tab2{
+    color: white;
+    width: 300px;
+    height: 150px;
+    border-spacing: 20px;
+    border: 1px solid black;
+}
+#tab3{
+    color: white;
+    width: 300px;
+    height: 150px;
+    border-spacing: 20px 30px;
+    border: 1px solid black;
+}

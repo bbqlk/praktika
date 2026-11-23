@@ -1,0 +1,14 @@
+#task1{
+    counter-reset: task1;
+}
+#task1 h1::before{
+    counter-increment: task1;
+    content: counter(task1);
+}
+#task2{
+    counter-reset: task2;
+}
+#task2 h1::before{
+    counter-increment: task2;
+    content: "№" counter(task2);
+}

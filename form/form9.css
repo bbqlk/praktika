@@ -1,0 +1,23 @@
+#t1::placeholder{
+    color: green;
+}
+#t2{
+    width: 200px;
+    height: 100px;
+}
+#t2::placeholder{
+    color: green;
+}
+#t3::placeholder{
+    color: rgb(78, 167, 78);
+}
+#t4{
+    width: 200px;
+    height: 100px;
+}
+#t4::placeholder{
+    color: rgb(78, 167, 78);
+}
+div{
+    margin-bottom: 5px;
+}

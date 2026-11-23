@@ -1,0 +1,13 @@
+#blok1{
+    width: calc(100% - 100px);
+    border: 1px solid black;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+#blok2{
+    width: calc(50% + 200px);
+    border: 1px solid red;
+    height: 100px;
+    margin: auto;
+}

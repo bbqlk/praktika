@@ -1,0 +1,9 @@
+#link1{
+    pointer-events: none;
+}
+#link2{
+    pointer-events: none;
+}
+#link{
+    cursor: not-allowed;
+}

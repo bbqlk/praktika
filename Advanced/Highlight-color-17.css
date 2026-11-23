@@ -1,0 +1,7 @@
+#text{
+    width: 400px;
+}
+#text::selection{
+    color: white;
+    background-color: green;
+}

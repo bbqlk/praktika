@@ -1,0 +1,5 @@
+#task1{
+    width: 300px;
+    hyphens: auto; /* автоматический перенос */
+    border: 1px solid black;
+}

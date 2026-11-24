@@ -1,0 +1,10 @@
+#t1:focus{
+    outline: 1px solid red;
+}
+#t2:focus{
+    outline: none;
+    box-shadow: 0 0 3px red;
+}
+div{
+    margin-bottom: 10px;
+}

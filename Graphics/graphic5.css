@@ -1,0 +1,35 @@
+p{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+#t1{
+    text-shadow: 10px 5px 3px red;
+}
+#t2{
+    text-shadow: -10px -5px 0 green;
+}
+#t3{
+    text-shadow: 15px -10px 0 green;
+}
+#t4{
+    text-shadow: 0px 0px 5px green;
+}
+#t5{
+    text-shadow: 0px 10px 0px green, 0 -10px 0px red;
+}
+#t6{
+    text-shadow: 2px 2px 3px black;
+}
+#t7{
+    text-shadow: 0px 0px 3px black;
+}
+#t8{
+    text-shadow: 0px 0px 3px red;
+}
+#t9{
+    text-shadow: 10px 10px 3px red, -10px -10px 3px blue;
+}
+#t10{
+    text-shadow: 10px 10px 1px red, 20px 20px 1px blue;
+}

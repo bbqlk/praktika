@@ -8,3 +8,18 @@ div{
 #d1{
     background: linear-gradient(yellow, rgb(255, 254, 219));
 }
+#d2{
+    background: linear-gradient(to right, yellow, rgb(255, 254, 219));
+}
+#d3{
+    background: linear-gradient(to left, yellow, rgb(255, 254, 219));
+}
+#d4{
+    background: linear-gradient(-45deg, red, white);
+}
+#d5{
+    background: linear-gradient(90deg, red, blue);
+}
+#d6{
+    background: linear-gradient(white 0%, white 50%, red 50%, red 100%);
+}

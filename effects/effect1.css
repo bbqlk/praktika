@@ -1,5 +1,5 @@
 div{
-    margin: auto;
+    margin-bottom: 10px;
 }
 #d1{
     width: 200px;
@@ -9,4 +9,74 @@ div{
 }
 #d1:hover{
     background-color: red;
+}
+#d2{
+    width: 200px;
+    height: 100px;
+    border: 1px solid red;
+    transition: 2s ease;
+}
+#d2:hover{
+    background-color: red;
+    color: white;
+}
+#d3{
+    width: 200px;
+    height: 100px;
+    border: 1px solid red;
+    transition: 2s ease;
+}
+#d3:hover{
+    width: 150px;
+}
+#d4{
+    width: 200px;
+    height: 100px;
+    border: 1px solid red;
+    transition: 2s ease;
+}
+#d4:hover{
+    width: 100px;
+}
+#d5{
+    width: 200px;
+    height: 100px;
+    border: 1px solid red;
+    transition: 2s ease 3s;
+}
+#d5:hover{
+    width: 100px;
+}
+#d6{
+    width: 200px;
+    height: 100px;
+    border: 1px solid red;
+    transition: 3s cubic-bezier(0, -1, 1, 1) ;
+}
+#d6:hover{
+    width: 150px;
+}
+#d7 input{
+    width: 200px;
+    transition: 1s linear;
+}
+#d7 input:focus{
+    color: blue;
+    outline-color: blue;
+}
+#d8 input{
+    width: 202px;
+    height: 16px;
+    transition: 1s linear;
+    outline: none;
+    inline-size: none;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+#d8 input:focus{
+    color: blue;
+    outline: none;
+    border: 1px solid blue;
+    border-radius: 3px;
+    box-shadow: 0 0 3px blue;
 }

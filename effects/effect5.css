@@ -5,3 +5,6 @@
     margin: 50px auto;
     transition: 0.5s ease;
 }
+#d1:hover{
+    rotate: 45deg;
+}

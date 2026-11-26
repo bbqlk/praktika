@@ -5,3 +5,27 @@ div{
     margin: auto;
     margin-bottom: 20px;
 }
+#d1{
+    background: radial-gradient(rgb(80, 220, 255), rgb(0, 145, 189)) ;
+}
+#d2{
+    background: radial-gradient(at top, rgb(80, 220, 255), rgb(0, 145, 189)) ;
+}
+#d3{
+    background: radial-gradient(rgb(80, 220, 255), rgb(0, 145, 189)) ;
+}
+#d4{
+    background: radial-gradient(circle, rgb(80, 220, 255), rgb(0, 145, 189)) ;
+}
+#d5{
+    background: radial-gradient( rgb(80, 220, 255) 5px, rgb(0, 145, 189) 90px) ;
+}
+#d6{
+    background: radial-gradient(at 40px 40px, rgb(80, 220, 255) 5px, rgb(0, 145, 189)50px) ;
+}
+#d7{
+    background: radial-gradient( black 5px, white 30px, white 40px, green 50px) ;
+}
+#d8{
+    background: radial-gradient( green 30px, white 30px, white 50px, green 50px) ;
+}

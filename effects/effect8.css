@@ -2,5 +2,19 @@
     border: 1px solid red;
     width: 100px;
     height: 100px;
+    transition: 1s ease;
     margin: 50px auto;
+}
+#d1:hover{
+    transform: translate(30px);
+}
+#d2{
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    transition: 1s ease;
+    margin: 50px auto;
+}
+#d2:hover{
+    transform: translate(-50px ,-50px);
 }

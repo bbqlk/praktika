@@ -15,3 +15,68 @@ div{
     border: 1px solid red;
     animation: move 4s infinite ease;
 }
+@keyframes color{
+    from{
+        background-color: white;
+    }
+    to{
+        background-color: red;
+    }
+}
+#d2{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    animation: color 4s infinite ease;
+}
+@keyframes moving{
+    0%{
+        left: 0;
+        top: 0;
+    }
+    25%{
+        left: 400px;
+        top: 0;
+    }
+    50%{
+        left: 400px;
+        top: 400px;
+    }
+    75%{
+        left: 0;
+        top: 400px;
+    }
+    100%{
+        left: 0;
+        top: 0;
+    }
+}
+#d3{
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    animation: moving 10s infinite linear;
+    position: relative;
+}
+#d4{
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    position: relative;
+    animation: moving 10s infinite linear, color 2s infinite linear alternate-reverse;
+}
+@keyframes move2{
+    from{
+        margin-left: 0px;
+    }
+    to{
+        margin-left: 100px;
+    }
+}
+#d5{
+    width: 50px;
+    height: 50px;
+    margin-top: 450px;
+    border: 1px solid red;
+    animation: move2 2s infinite cubic-bezier(.4, 1, .2, 1) alternate-reverse;
+}

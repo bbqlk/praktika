@@ -2,4 +2,9 @@
     border: 1px solid red;
     width: 100px;
     height: 100px;
+    transition: 0.5s ease ;
+    margin: 50px auto;
+}
+#d1:hover{
+    transform: scale(1.5);
 }

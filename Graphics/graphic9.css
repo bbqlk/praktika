@@ -8,3 +8,12 @@ div{
 #d1{
     background: repeating-linear-gradient(to right, white 0px, white 5px, black 5px, black 10px);
 }
+#d2{
+    background: repeating-linear-gradient(to top, white 0px, white 5px, black 5px, black 10px);
+}
+#d3{
+    background: repeating-linear-gradient(to top, white 0px, white 5px, black 5px, black 6px);
+}
+#d4{
+    background: repeating-linear-gradient(45deg, white 0px, white 5px, red 5px, red 8px);
+}

@@ -1,0 +1,10 @@
+div{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+#d1{
+    background: repeating-linear-gradient(to right, white 0px, white 5px, black 5px, black 10px);
+}

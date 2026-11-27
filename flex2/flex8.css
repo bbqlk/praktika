@@ -6,9 +6,81 @@
     margin: auto;
 }
 .parent1 .child {
-    width: 180px;
+    width: 186px;
+    flex-shrink: 2;
 	border: 1px solid green;
 }
 .parent1 #d1{
-    width: 360px;
+    flex-shrink: 1;
+    width: 343px;
+}
+.parent {
+	display: flex;
+	width: 200px;
+	height: 200px;
+	border: 1px solid red;
+}
+.parent .child {
+	height: 50px;
+	border: 1px solid green;
+}
+.elem1 {
+	width: 50px;
+	flex-shrink: 2;
+}
+.elem2 {
+	width: 75px;
+	flex-shrink: 1;
+}
+.elem3 {
+	width: 75px;
+	flex-shrink: 1;
+}
+.parent2 {
+	display: flex;
+	width: 200px;
+	height: 200px;
+	border: 1px solid red;
+}
+.parent2 .child {
+	height: 50px;
+	border: 1px solid green;
+}
+.elem1 {
+	width: 50px;
+	flex-shrink: 3;
+}
+.elem2 {
+	width: 66.67px;
+	flex-shrink: 2;
+}
+.elem3 {
+	width: 83.33px;
+	flex-shrink: 1;
+}
+.parent3 {
+	display: flex;
+	width: 500px;
+	height: 200px;
+	border: 1px solid red;
+}
+.parent3 .child {
+	height: 50px;
+	border: 1px solid green;
+}
+.elem1 {
+	width: 84px;
+	flex-shrink: 3;
+}
+.elem2 {
+	width: 104px;
+	flex-shrink: 2;
+}
+.elem3 {
+	width: 152px;
+	flex-shrink: 1;
+}
+.elem4 {
+	width: 152px;
+	flex-shrink: 1;
 }

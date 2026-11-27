@@ -1,0 +1,25 @@
+.n1{
+    display: flex;
+    margin: 40px auto;
+    width: 550px;
+}
+.n1 a{
+    border: 1px solid blue;
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    margin-right: 5px;
+    transition: 1.5s ease;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.n1 a:hover{
+    rotate: 10deg;
+    transform: scale(1.1);
+}
+.n1 .active{
+    rotate: 10deg;
+    transform: scale(1.1);
+}

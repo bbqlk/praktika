@@ -5,3 +5,37 @@ div {
 	font-size: 2em; /*20px */
 	margin: 2em; /*40px */
 }
+section {
+	font-size: 10px;
+}
+div {
+	font-size: 2em; /*20px */
+	margin: 3em; /*60px */
+}
+section {
+	font-size: 10px;
+}
+div {
+	font-size: 2em; /*20px */
+	margin: 0.5em; /*10px */
+}
+section {
+	font-size: 10px;
+}
+div {
+	font-size: 2em;
+}
+p {
+	font-size: 2em;/*40px */
+	margin: 2em; /*40px */
+}
+section {
+	font-size: 10px;
+}
+div {
+	font-size: 1.5em;
+}
+p {
+	font-size: 1em; /*15px */
+	margin: 1.5em; /*30px */
+}

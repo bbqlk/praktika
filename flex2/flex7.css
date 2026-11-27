@@ -6,9 +6,28 @@
     margin: auto;
 }
 .parent1 .child {
-    width: 200px;
+    width: 180px;
 	border: 1px solid green;
 }
 .parent1 #d1{
-    width: 400px;
+    width: 360px;
+}
+.parent {
+	display: flex;
+	width: 300px;
+	height: 200px;
+	border: 1px solid red;
+}
+.parent .child {
+	height: 50px;
+	border: 1px solid green;
+}
+.elem1 {
+	width: 180px;
+}
+.elem2 {
+	width: 60px;
+}
+.elem3 {
+	width: 60px;
 }

@@ -8,3 +8,17 @@ h1 {
 p {
 	font-size: 32px; /*2em */
 }
+main {
+	margin: 32px auto; /*2em */
+}
+
+h1 {
+	font-size: 32px; /*2em */
+}
+div {
+	font-size: 16px; /*1em */
+	margin-bottom: 32px; /*2em */
+}
+p {
+	font-size: 20px; /*1.25em */
+}

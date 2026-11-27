@@ -1,0 +1,14 @@
+.parent1 {
+	display: flex;
+	width: 900px;
+	height: 300px;
+	border: 1px solid red;
+    margin: auto;
+}
+.parent1 .child {
+    width: 200px;
+	border: 1px solid green;
+}
+.parent1 #d1{
+    width: 400px;
+}

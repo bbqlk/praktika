@@ -4,3 +4,21 @@ section {
 div {
 	font-size: 2em; /*20px */
 }
+section {
+	font-size: 10px;
+}
+div {
+	font-size: 2em;
+}
+p {
+	font-size: 1.5em; /*30px */
+}
+section {
+	font-size: 40px;
+}
+div {
+	font-size: 0.5em;
+}
+p {
+	font-size: 0.5em; /* 10px */
+}

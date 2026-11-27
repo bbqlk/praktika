@@ -1,0 +1,15 @@
+.parent1 {
+	display: flex;
+	width: 90%;
+	height: 300px;
+	border: 1px solid red;
+    margin: auto;
+}
+.parent1 .child {
+    flex-grow: 1;
+	border: 1px solid green;
+}
+.parent1 #big {
+    flex-grow: 3;
+	border: 1px solid green;
+}

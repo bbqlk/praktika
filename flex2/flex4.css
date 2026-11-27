@@ -9,3 +9,7 @@
     width: 150px;
 	border: 1px solid green;
 }
+.parent1 #big {
+    width: 300px;
+	border: 1px solid green;
+}

@@ -6,7 +6,6 @@
     margin: auto;
 }
 .parent1 .child {
-    width: 100px;
-    height: 100px;
+    width: 150px;
 	border: 1px solid green;
 }

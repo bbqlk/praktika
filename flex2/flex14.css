@@ -3,24 +3,78 @@
 	flex-wrap: wrap;
 	width: 300px;
 	border: 1px solid black;
-    justify-content: space-between;
 }
 #parent1 .child {
 	box-sizing: border-box;
 	width: calc(100% / 3 - 3% * 2 / 3);
     height: 100px;
 	border: 1px solid green;
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+#parent1 .child:nth-child(3n){
+    margin-right: 0;
+}
+#parent1 .child:nth-last-child(-n + 3){
+    margin-bottom: 0;
 }
 #parent2{
     display: flex;
 	flex-wrap: wrap;
 	width: 600px;
 	border: 1px solid black;
-    justify-content: space-between;
 }
 #parent2 .child {
 	box-sizing: border-box;
 	width: calc(100% / 6 - 0.5% * 5 / 6);
     height: 100px;
 	border: 1px solid green;
+    margin-right: 0.5%;
+    margin-bottom: 0.5%;
+}
+#parent2 .child:nth-child(6n){
+    margin-right: 0;
+}
+#parent2 .child:nth-last-child(-n + 6){
+    margin-bottom: 0;
+}
+#parent3{
+    display: flex;
+	flex-wrap: wrap;
+	width: 400px;
+	border: 1px solid black;
+}
+#parent3 .child {
+	box-sizing: border-box;
+	width: calc(100% / 4 - 30px * 3 / 4);
+    height: 100px;
+	border: 1px solid green;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+#parent3 .child:nth-child(4n){
+    margin-right: 0;
+}
+#parent3 .child:nth-last-child(-n + 4){
+    margin-bottom: 0;
+}
+#parent4{
+    display: flex;
+	flex-wrap: wrap;
+	width: 500px;
+	border: 1px solid black;
+}
+#parent4 .child {
+	box-sizing: border-box;
+	width: calc(100% / 5 - 50px * 4 / 5);
+    height: 100px;
+	border: 1px solid green;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+#parent4 .child:nth-child(5n){
+    margin-right: 0;
+}
+#parent4 .child:nth-last-child(-n + 5){
+    margin-bottom: 0;
 }

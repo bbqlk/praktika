@@ -14,3 +14,35 @@
 	box-sizing: border-box;
 	border: 1px solid #696989;
 }
+#parent2 {
+	display: grid;
+	place-items: center center;
+	grid-template-columns: 100px 100px 100px;
+	grid-gap: 10px;
+	padding: 10px;
+	border: 2px solid #696989;
+	height: 200px;
+	width: 400px;
+}
+#parent2 > div {
+	grid-gap: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #696989;
+}
+#parent3 {
+	display: grid;
+	place-items: start end;
+	grid-template-columns: 100px 100px;
+	grid-gap: 10px;
+	padding: 10px;
+	border: 2px solid #696989;
+	height: 200px;
+	width: 400px;
+}
+#parent3 > div {
+	grid-gap: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #696989;
+}

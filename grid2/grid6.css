@@ -15,3 +15,37 @@
 	box-sizing: border-box;
 	border: 1px solid #696989;
 }
+#parent2 {
+	display: grid;
+	justify-items: center;
+	grid-template-columns: 100px 100px 100px;
+	grid-template-rows: repeat(2, 1fr);
+	grid-gap: 10px;
+	padding: 10px;
+	height: 200px;
+	width: 400px;
+	border: 2px solid #696989;
+}
+#parent2 > div {
+	grid-gap: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #696989;
+}
+#parent3 {
+	display: grid;
+	justify-items: end;
+	grid-template-columns: 100px 100px 100px;
+	grid-template-rows: repeat(2, 1fr);
+	grid-gap: 10px;
+	padding: 10px;
+	height: 200px;
+	width: 400px;
+	border: 2px solid #696989;
+}
+#parent3 > div {
+	grid-gap: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #696989;
+}

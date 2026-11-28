@@ -1,0 +1,20 @@
+#parent1{
+    display: flex;
+	flex-wrap: wrap;
+	width: 220px;
+	border: 1px solid black
+}
+.child {
+	box-sizing: border-box;
+	width: 100px;
+	height: 100px;
+	border: 1px solid green;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+#parent1 .child:nth-child(2n){
+    margin-right: 0;
+}
+#parent1 .child:nth-last-child(-n + 2){
+    margin-bottom: 0;
+}

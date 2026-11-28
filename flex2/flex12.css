@@ -1,4 +1,4 @@
-#parent{
+#parent1{
     display: flex;
 	flex-wrap: wrap;
 	width: 220px;
@@ -12,9 +12,33 @@
     margin-right: 20px;
     margin-bottom: 20px;
 }
-.child:nth-child(2n){
+#parent1 .child:nth-child(2n){
     margin-right: 0;
 }
-.child:nth-last-child(-n + 2){
+#parent1 .child:nth-last-child(-n + 2){
+    margin-bottom: 0;
+}
+#parent2{
+    display: flex;
+	flex-wrap: wrap;
+	width: 340px;
+	border: 1px solid black
+}
+#parent2 .child:nth-child(3n){
+    margin-right: 0;
+}
+#parent2 .child:nth-last-child(-n + 3){
+    margin-bottom: 0;
+}
+#parent3{
+    display: flex;
+	flex-wrap: wrap;
+	width: 460px;
+	border: 1px solid black
+}
+#parent3 .child:nth-child(4n){
+    margin-right: 0;
+}
+#parent3 .child:nth-last-child(-n + 4){
     margin-bottom: 0;
 }

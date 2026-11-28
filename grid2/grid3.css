@@ -1,4 +1,4 @@
-#parent{
+#parent1{
     display: grid;
     grid-template-columns: 50px 50px;
     border: 2px solid #696989;
@@ -7,7 +7,33 @@
 	height: 300px;
     justify-content: start;
 }
-#parent > div {
+#parent1 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#parent2{
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    border: 2px solid #696989;
+    padding: 10px;
+	width: 300px;
+	height: 300px;
+    justify-content: center;
+}
+#parent2 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#parent3{
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    border: 2px solid #696989;
+    padding: 10px;
+	width: 300px;
+	height: 300px;
+    justify-content: end;
+}
+#parent3 > div {
 	padding: 10px;
 	border: 1px solid #696989;
 }
